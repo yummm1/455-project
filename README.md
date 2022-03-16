@@ -10,18 +10,18 @@ The goal of this project is to clarify 4 kinds of white blood cells that could i
 The data used is 336 blood cells images that include neutrophil, lymphocyte, eosinophil, monocyte and basophil. The data is already cleaned and output into csv file as their path to image and their labels. The original images can be found on Kaggle, and the cleaned version is online. I chose it because it the properly labeled and the dataset is a proper number. Even though the number of images in each category is unbalanced, the dataset is rebuilt by using images from the same category for multiple times. 
 
 ## Techniques: what techniques (ML/DL Models, algorithms, training parameters, etc)? How did these techniques perform (metrics and evaluation)? Note: the stuff mentioned in this section should be the bulk of your technical work (code and such)
-\newline
+<br />
 Model choosing: Resnet34
 1. Resnet34 solves degradation problem, which gives best result on the classification task. It is pretrained model with high precision. It is also a relatively new model but has good community environment
 2. Residual learning framework helps with the training of deep neural network by solves degradation problem. It uses shortcut to realize the identity mapping
-\newline
+<br />
 Training parameters:
 1.	Optimizer: Adam
 2.	Loss function: Cross entropy loss
 3.	Number of training epochs: 15
 4.	Learning rate: 0.01 (by default)
 5.	Momentum: 0.1(by default)
-\newline
+<br />
 Evaluation metrics:
 1.	Loss decreasing graph (Both training set and validation set)
 2.	Accuracy increasing graph (Both training set and validation set)
@@ -30,7 +30,7 @@ Evaluation metrics:
 Due to the time limited, we don’t find the best hyper-parameters combination. If we got time, we could try another loss functions like the negative log likelihood loss and traditional loss like the mean absolute error loss or the mean squared logarithmic error loss. We also can train more epochs and test for more model like efficient net and AlexNet.
 ## References: 
 He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). https://doi.org/10.1109/cvpr.2016.90 
-\newline
+<br />
 Home Page. RESNET. (2021, July 21). Retrieved March 15, 2022, from https://www.resnet.us/ 
-\newline
+<br />
 【图像分类】实战——使用ResNet实现猫狗分类（pytorch）_AI小浩的技术博客_51CTO博客. (n.d.). Blog.51cto.com. Retrieved March 16, 2022, from https://blog.51cto.com/AIXhao/2996855
