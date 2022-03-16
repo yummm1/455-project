@@ -30,7 +30,7 @@ Evaluation metrics:
 Due to the time limited, we don’t find the best hyper-parameters combination. If we got time, we could try another loss functions like the negative log likelihood loss and traditional loss like the mean absolute error loss or the mean squared logarithmic error loss. We also can train more epochs and test for more model like efficient net and AlexNet.
 ## References: 
 He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). https://doi.org/10.1109/cvpr.2016.90 
-<br />
-Home Page. RESNET. (2021, July 21). Retrieved March 15, 2022, from https://www.resnet.us/ 
-<br />
+
+Home Page. RESNET. (2021, July 21). Retrieved March 15, 2022, from https://www.resnet.us/ <br>
+
 【图像分类】实战——使用ResNet实现猫狗分类（pytorch）_AI小浩的技术博客_51CTO博客. (n.d.). Blog.51cto.com. Retrieved March 16, 2022, from https://blog.51cto.com/AIXhao/2996855
