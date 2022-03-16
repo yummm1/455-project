@@ -22,7 +22,7 @@ Training parameters:<br>
 5. Momentum: 0.1(by default)
 <br>
 Evaluation metrics:<br>
-1.	Loss decreasing graph (Both training set and validation set)<br>
+1.	Loss decreasing graph (Both training set and validation set)
 2.	Accuracy increasing graph (Both training set and validation set)<br>
 3.	Accuracy for holdout set
 
