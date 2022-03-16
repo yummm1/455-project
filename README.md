@@ -1,6 +1,6 @@
 # 455-project
 ## Summary
-Used resnet to do blood cell image classification. Applied transfer learning and draw loss decreasing graph and accuracy increasing graph. The best accuracy is …, which is an acceptable result. 
+Used resnet to do blood cell image classification. Applied transfer learning and draw loss decreasing graph and accuracy increasing graph. The best accuracy is 0.714, which is an acceptable result. 
 
 ## Problem Setup
 Blood smear is one of the most common test that doctors perform, and it is very useful in detecting disease and distinguish diseases. The computer-run clarification would greatly save the cost and is more time-efficient. Machine learning and computer vision can be applied in blood cell clarification. 
