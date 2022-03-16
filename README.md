@@ -15,18 +15,20 @@ Model choosing: Resnet34<br>
 2. Residual learning framework helps with the training of deep neural network by solves degradation problem. It uses shortcut to realize the identity mapping
 <br>
 Training parameters:<br>
-1. Optimizer: Adam <br>
-2.	Loss function: Cross entropy loss<br>
-3.	Number of training epochs: 15<br>
-4.	Learning rate: 0.01 (by default)<br>
-5.	Momentum: 0.1(by default)
+1. Optimizer: Adam 
+2. Loss function: Cross entropy loss
+3. Number of training epochs: 15
+4. Learning rate: 0.01 (by default)
+5. Momentum: 0.1(by default)
 <br>
 Evaluation metrics:<br>
 1.	Loss decreasing graph (Both training set and validation set)<br>
 2.	Accuracy increasing graph (Both training set and validation set)<br>
 3.	Accuracy for holdout set
+
 ## Additional Info: Anything else needed to fully describe your work
 Due to the time limited, we don’t find the best hyper-parameters combination. If we got time, we could try another loss functions like the negative log likelihood loss and traditional loss like the mean absolute error loss or the mean squared logarithmic error loss. We also can train more epochs and test for more model like efficient net and AlexNet.
+
 ## References: 
 He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). https://doi.org/10.1109/cvpr.2016.90 <br>
 
