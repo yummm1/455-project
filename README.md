@@ -21,6 +21,7 @@ Training parameters:<br>
 4. Learning rate: 0.01 (by default) <br>
 5. Momentum: 0.1(by default)
 <br>
+<br>
 Evaluation metrics:<br>
 1.	Loss decreasing graph (Both training set and validation set)<br>
 2.	Accuracy increasing graph (Both training set and validation set)<br>
